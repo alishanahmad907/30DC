@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindForm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="min-h-screen flex  items-center justify-center bg-blue-300">
+
+        <!-- login form -->
+        <div class="bg-white p-16 rounded shadow-2xl w-2/3">
+            <h2 class="text-3xl font-bold mb-10 text-purple-700">Create Your Account</h2>
+
+            <form class="space-y-8 text-gray-700">
+                <div >
+                    <label for="name" class="block mb-2 font-bold">Name</label>
+                    <input type="text" id="name" class="border-2 border-purple-500 rounded-md py-1 px-3 w-full outline-none  focus:border-blue-400">
+                </div>
+                <div>
+                    <label for="mail"class="block mb-2 font-bold">Email</label>
+                    <input type="email" id="mail"class="border-2 border-purple-500 rounded-md py-1 px-3 w-full outline-none  focus:border-blue-400">
+                </div>
+                <div>
+                    <label for="pass"class="block mb-2 font-bold">Password</label>
+                    <input type="password" id="pass"class="border-2 border-purple-500 rounded-md py-1 px-3 w-full outline-none  focus:border-blue-400">
+                </div>
+                <div class="flex items-center "> 
+                    <input type="checkbox" id="agree">
+                    <label for="agree"class=" ml-2 font-bold">I agree to the terms and privacy</label>
+                </div>
+                <button class="w-full bg-purple-600 rounded-full px-3 py-2 hover:bg-purple-500 text-gray-900 font-bold  duration-300">Sign Up</button>
+            </form>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
