@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Tut</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="min-h-screen bg-gray-500 flex items-center justify-center">
+        <!-- calculator -->
+        <div class="bg-gray-700 border-2 border-gray-900 shadow-2xl rounded-lg">
+            <form class="border-b-2 border-gray-900">
+                <input type="number" class="bg-transparent p-8 rounded-t-lg outline-none focus:bg-gray-600 text-3xl text-right text-white font-mono">
+            </form>
+            <!-- form -->
+
+            <!-- buttons -->
+            <div class="p-6 text-gray-900 grid grid-cols-4 gap-4 text-xl font-mono">
+                <button class="bg-blue-500 rounded-full p-5 hover:bg-blue-400">C</button>
+                <button class="bg-purple-500 rounded-full p-5 hover:bg-purple-400">()</button>
+                <button class="bg-purple-500 rounded-full p-5 hover:bg-purpl-400">%</button>
+
+                <button class="bg-purple-500 rounded-full p-5 hover:bg-purple-400">&divide;</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">7</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">8</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">9</button>
+                
+                <button class="bg-purple-500 rounded-full p-5 hover:bg-purple-400">&times;</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">4</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">5</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">6</button>
+                <button class="bg-purple-500 rounded-full p-5 hover:bg-purple-400">+</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">1</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">2</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">3</button>
+                <button class="bg-purple-500 rounded-full p-5 hover:bg-purple-400">-</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">.</button>
+                <button class="bg-gray-500 rounded-full p-5 hover:bg-gray-400">0</button>
+                <button class="bg-purple-500 rounded-full p-5 hover:bg-purple-400 col-span-2">=</button>
+            </div>
+        </div>
+    </div>
+
+</html>
